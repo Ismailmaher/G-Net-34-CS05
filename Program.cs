@@ -186,7 +186,7 @@ namespace G_Net_34_CS05
             //{ 
             //    CalculateCircle(r, out double area, out double circum);
 
-               
+
             //    Console.WriteLine($"Results for Radius {r}:");
             //    Console.WriteLine($"Area          : {area}");
             //    Console.WriteLine($"Circumference : {circum}");
@@ -197,6 +197,68 @@ namespace G_Net_34_CS05
             //}
             #endregion
 
-        }
+            #region Create a new Console Application project
+        //    static Grade GetGrade(int score)
+        //    {
+        //        if (score >= 90) return Grade.A;
+        //        if (score >= 80) return Grade.B;
+        //        if (score >= 70) return Grade.C;
+        //        if (score >= 60) return Grade.D;
+        //        return Grade.F;
+        //    }
+
+        //    static double CalculateAverage(int[] scores)
+        //    {
+        //        int sum = 0;
+        //        foreach (int score in scores)
+        //        {
+        //            sum += score;
+        //        }
+
+        //        return (double)sum / scores.Length;
+        //    }
+        //    static void GetMinMax(int[] scores, out int min, out int max)
+        //    {
+        //        min = scores[0];
+        //        max = scores[0];
+        //        foreach (int score in scores)
+        //        {
+        //            if (score < min) min = score;
+        //            if (score > max) max = score;
+        //        }
+        //    }
+         
+        //    int[] studentScores = new int[5];
+
+         
+        //    Console.WriteLine("--- Enter Student Scores ---");
+        //    for (int i = 0; i < studentScores.Length; i++)
+        //    {
+        //        Console.Write($"Enter score for student {i + 1}: ");
+        //        studentScores[i] = int.Parse(Console.ReadLine());
+        //    }
+
+            
+        //    Console.WriteLine("\n--- Report ---");
+        //    for (int i = 0; i < studentScores.Length; i++)
+        //    {
+        //        Grade studentGrade = GetGrade(studentScores[i]);
+        //        Console.WriteLine($"Student {i + 1}: Score = {studentScores[i]}, Grade = {studentGrade}");
+        //    }
+
+           
+        //    double avg = CalculateAverage(studentScores);
+        //    GetMinMax(studentScores, out int minScore, out int maxScore);
+
+        //    Console.WriteLine("\n--- Class Statistics ---");
+        //    Console.WriteLine($"Class Average : {avg}");
+        //    Console.WriteLine($"Highest Score : {minScore}");
+        //    Console.WriteLine($"lowest Score: {maxScore}");
+
+        //    Console.WriteLine("\nPress any key to exit...");
+        //    Console.ReadKey();
+        //}
+            #endregion
+
     }
-}
+    }
