@@ -1,5 +1,6 @@
 ﻿using System.Security.Cryptography;
 using System.Threading.Channels;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace G_Net_34_CS05
 {
@@ -106,6 +107,71 @@ namespace G_Net_34_CS05
             //}
             //double classAverage = totalSum / (3 * 4);
             //Console.WriteLine($"\nOverall Class Average: {classAverage}");
+
+            #endregion
+
+            #region Part 3: Functions (Methods)Q1 Basic Calculator Functions
+            //static double Add(double a, double b)
+            //{
+            //    return a + b;
+            //}   
+            //static double Subtract(double a, double b)
+            //{
+            //    return a - b;
+            //}
+            //static double Multiply(double a, double b)
+            //{
+            //    return a * b;
+            //}
+            //static double Divide(double a, double b)
+            //{
+            //    if (b == 0)
+            //    {
+            //        Console.WriteLine("Error: Division by zero is not allowed.");
+            //        return double.NaN; 
+            //    }
+            //    return a / b;
+            //}
+            //bool continueCalculations = true;
+            //do {    
+            //Console.WriteLine($"Enter the First Number: ");
+            //double num1=double.Parse(Console.ReadLine());
+            //Console.WriteLine($"Enter the Second Number: ");
+            //double num2 = double.Parse(Console.ReadLine());
+            //Console.Write("Enter operation (+, -, *, /): ");
+            //char op = Console.ReadLine()[0];
+            //double result = 0;
+            //bool valid = true;
+           
+            //    switch (op)
+            //    {
+            //        case '+':
+            //            result = Add(num1, num2);
+            //            break;
+            //        case '-':
+            //            result = Subtract(num1, num2);
+            //            break;
+            //        case '*':
+            //            result = Multiply(num1, num2);
+            //            break;
+            //        case '/':
+            //            result = Divide(num1, num2);
+            //            break;
+            //        default:
+            //            Console.WriteLine("Invalid operation.");
+            //            valid = false;
+            //            break;
+            //    }
+            //    if (valid)
+            //    {
+            //        Console.WriteLine($"Result: {num1} {op} {num2} = {result}");
+            //    }
+            //    Console.Write("\nDo you want to perform another calculation? (y/n): ");
+            //    continueCalculations = Console.ReadLine().ToLower() == "y";
+            //} while (continueCalculations);
+            
+
+
 
             #endregion
 
