@@ -77,6 +77,37 @@ namespace G_Net_34_CS05
             //Console.WriteLine();
             #endregion
 
+            #region Question 2_part_2_array
+            //double[,] grades = new double[3, 4];
+            //double totalSum = 0;
+            //for (int i = 0; i < 3; i++)
+            //{
+            //    Console.WriteLine($"Enter grades for Student {i + 1}:");
+            //    for (int j = 0; j < 4; j++)
+            //    {
+            //        Console.WriteLine($"  Subject {j + 1}: ");
+            //        grades[i, j] = double.Parse(Console.ReadLine());
+            //    }
+            //    Console.WriteLine("-------------------------");
+            //}
+            //Console.WriteLine("\n--- Results ---");
+            //for (int i = 0; i < 3; i++)
+            //{
+            //    double studentSum = 0;
+            //    for (int j = 0; j < 4; j++)
+            //    {
+            //        studentSum += grades[i, j];
+            //    }
+
+            //    double studentAverage = studentSum / 4;
+            //    totalSum += studentSum; 
+
+            //    Console.WriteLine($"Student {i + 1} Average: {studentAverage}");
+            //}
+            //double classAverage = totalSum / (3 * 4);
+            //Console.WriteLine($"\nOverall Class Average: {classAverage}");
+
+            #endregion
 
         }
     }
