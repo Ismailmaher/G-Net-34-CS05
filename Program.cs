@@ -142,7 +142,7 @@ namespace G_Net_34_CS05
             //char op = Console.ReadLine()[0];
             //double result = 0;
             //bool valid = true;
-           
+
             //    switch (op)
             //    {
             //        case '+':
@@ -169,10 +169,32 @@ namespace G_Net_34_CS05
             //    Console.Write("\nDo you want to perform another calculation? (y/n): ");
             //    continueCalculations = Console.ReadLine().ToLower() == "y";
             //} while (continueCalculations);
-            
 
 
 
+
+            #endregion
+
+            #region Part 3: Functions (Methods)Q2 : Circle Calculator with out
+            //static void CalculateCircle(double radius, out double area, out double circumference)
+            //{
+            //    area = Math.PI * radius * radius;
+            //    circumference = 2 * Math.PI * radius;
+            //}
+            //Console.Write("Enter the radius of the circle: ");
+            //if (double.TryParse(Console.ReadLine(), out double r))
+            //{ 
+            //    CalculateCircle(r, out double area, out double circum);
+
+               
+            //    Console.WriteLine($"Results for Radius {r}:");
+            //    Console.WriteLine($"Area          : {area}");
+            //    Console.WriteLine($"Circumference : {circum}");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Invalid input! Please enter a numeric value.");
+            //}
             #endregion
 
         }
